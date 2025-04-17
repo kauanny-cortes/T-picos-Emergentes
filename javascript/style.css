@@ -1,0 +1,65 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o estilo geral da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Estilo dos botões */
+.btn {
+    background-color: #ffb6c1;
+    color: #fff;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7b8a;
+    transform: translateY(-3px);
+}
+
+/* Estilo dos botões de cores de fundo */
+.color-buttons button {
+    background-color: #f8c1d1;
+}
+
+/* Estilo do container de botões de cores */
+.color-buttons {
+    margin-top: 20px;
+}

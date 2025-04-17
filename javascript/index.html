@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Criativa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="welcome-text">👋 Bem-vindo à página criativa!</h1>
+        <p>Clique nos botões abaixo para interagir.</p>
+
+        <!-- Botão que muda o texto -->
+        <button class="btn" onclick="changeText()">Mudar Texto 📝</button>
+
+        <!-- Botões que mudam a cor de fundo -->
+        <div class="color-buttons">
+            <button class="btn" onclick="changeBackgroundColor('lightblue')">Azul Claro 🌊</button>
+            <button class="btn" onclick="changeBackgroundColor('lightgreen')">Verde Claro 🌿</button>
+            <button class="btn" onclick="changeBackgroundColor('lightcoral')">Coral Claro 🌺</button>
+        </div>
+
+        <!-- Função de boas-vindas -->
+        <button class="btn" onclick="showWelcomeMessage()">🎉 Boas-vindas! 🎉</button>
+    </div>
+</body>
+</html>
